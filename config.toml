@@ -2,3 +2,8 @@ baseURL = 'https://abedef.ca/'
 languageCode = 'en-us'
 title = "Abed's Blog"
 theme = 'PaperMod'
+
+[module]
+[[module.imports]]
+  path = 'github.com/adityatelange/hugo-PaperMod'
+
