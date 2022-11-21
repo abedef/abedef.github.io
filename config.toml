@@ -1,0 +1,4 @@
+baseURL = 'https://abedef.ca/'
+languageCode = 'en-us'
+title = "Abed's Blog"
+theme = 'PaperMod'
