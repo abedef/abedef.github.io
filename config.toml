@@ -1,7 +1,7 @@
 baseURL = 'https://abedef.ca/'
 languageCode = 'en-us'
 title = "Abed's Blog"
-theme = 'PaperMod'
+theme = 'hugo-PaperMod'
 
 [module]
 [[module.imports]]
