@@ -190,37 +190,37 @@ Setting
     - Bots
     - Daemons (spell cards? lol)
 
-Battles (Deadlocks?)
-there are multiple kinds of battles
-arcade battles, fought for fun or to bet credits, can only be initiated face-to-face
-competitive battles which are fought for rank to increase your user id’s rep (should maybe look into some interesting alternative ladder systems for this attribute)
+* Battles (Deadlocks?)
+* there are multiple kinds of battles
+* arcade battles, fought for fun or to bet credits, can only be initiated face-to-face
+* competitive battles which are fought for rank to increase your user id’s rep (should maybe look into some interesting alternative ladder systems for this attribute)
 
-idea: a tcg where each card is unique and tradable and transactions are secure and done in person over BT or some shit (maybe some transactions can be done over the internet but BT is preferable because it’s more secure? I dunno)
-graphics style would be pixel everything with voxel art for the actual monsters maybe they pop out of a pixel picture on the pixel card idk lol
-this would attempt to solve the problem of having to pay more and more money to get stronger
-maybe this can be solved with a simplified server less model of gameplay where big revenue isn’t necessary to carry on
+* idea: a tcg where each card is unique and tradable and transactions are secure and done in person over BT or some shit (maybe some transactions can be done over the internet but BT is preferable because it’s more secure? I dunno)
+* graphics style would be pixel everything with voxel art for the actual monsters maybe they pop out of a pixel picture on the pixel card idk lol
+* this would attempt to solve the problem of having to pay more and more money to get stronger
+* maybe this can be solved with a simplified server less model of gameplay where big revenue isn’t necessary to carry on
 
 # More Game Brainstorming
 
 Game Brainstorming
 
-Play as a crazy AI within a space ship
-“I’m afraid I can’t do that”
-Back to Tinker idea, the space station can be upgradeable and heavily modifiable
-Leverage things that are only possible in a voxel environment
-Use Ancient Greek music for inspiration
-Think whether or not anno mechanics can be worked into tinker
-First step
-Write a voxel renderer
-Maybe too ambit is
-Start with 2d thing
-Xcom + RTS with board game elements
-Escort construction workers etc
-Squad based game should be first one maybe
-RTS where speed isn’t the skill you’d want to develop
-The idea of supply lines and trade sounds like fun
-In order to make the computer mechanics fun it would make sense to have the components that are available follow the principle of “do exactly one thing very well”
-so making something complex would involve adding up a bunch of tiny parts, which will look cool
+* Play as a crazy AI within a space ship
+* “I’m afraid I can’t do that”
+* Back to Tinker idea, the space station can be upgradeable and heavily modifiable
+* Leverage things that are only possible in a voxel environment
+* Use Ancient Greek music for inspiration
+* Think whether or not anno mechanics can be worked into tinker
+* First step
+* Write a voxel renderer
+* Maybe too ambit is
+* Start with 2d thing
+* Xcom + RTS with board game elements
+* Escort construction workers etc
+* Squad based game should be first one maybe
+* RTS where speed isn’t the skill you’d want to develop
+* The idea of supply lines and trade sounds like fun
+* In order to make the computer mechanics fun it would make sense to have the components that are available follow the principle of “do exactly one thing very well”
+* so making something complex would involve adding up a bunch of tiny parts, which will look cool
 
 Random Mechanics
 * Instead of tackling a game that includes many computers, start with one that re-imagines a single computer as a creative setting
@@ -258,50 +258,50 @@ Things I’m Interesting In Doing
     * Somehow only noticeable after a while?
 * take the premise of wooden bender on an island with other robots and use it as a narrative
 
-Achievements and Badges
-Let players earn achievements which reward them with badges which pimps out their in game presentation
-Up to three can be displayed at a time, so the player picks out the badges they’re most proud of to present themselves in game
+### Achievements and Badges
+* Let players earn achievements which reward them with badges which pimps out their in game presentation
+* Up to three can be displayed at a time, so the player picks out the badges they’re most proud of to present themselves in game
 
 
-BIG THOUGHT
-A game with the cozy feel of dwarf fortress
-The dwarves are all working together and they can brew ale and at night they do fun stuff and celebrate I dunno
-It would be fun to make something like that and have it be simulated that would be an incredible project
+### BIG THOUGHT
+* A game with the cozy feel of dwarf fortress
+* The dwarves are all working together and they can brew ale and at night they do fun stuff and celebrate I dunno
+* It would be fun to make something like that and have it be simulated that would be an incredible project
 
-You can do alchemy and brewing and stuff with realistic recipes like that one stick game rpg I heard a podcast about (if we go with the AI thing, rather than brewing we can have 3d printing and molecular synthesis)
+* You can do alchemy and brewing and stuff with realistic recipes like that one stick game rpg I heard a podcast about (if we go with the AI thing, rather than brewing we can have 3d printing and molecular synthesis)
 
-Pay raise requests are a cool feature
+* Pay raise requests are a cool feature
 
-Should be about drones or nanobots or some shit
+* Should be about drones or nanobots or some shit
 
-As practice remake something like stone hearth with METAL to learn it
+* As practice remake something like stone hearth with METAL to learn it
 
-Factories aren’t a feature in the game but because of the way things are set up and the interactions you have, you can design things that behave as factories or more like a supply chain
-For example the process of going from metal ores found deep within a mountain range to 
+* Factories aren’t a feature in the game but because of the way things are set up and the interactions you have, you can design things that behave as factories or more like a supply chain
+* For example the process of going from metal ores found deep within a mountain range to 
 
-^ so at first, you’d be like a little dude who does every single step
-then you get a helper and now you can do twice the amount of work, or set up an assembly line of sorts
-maybe the mechanic will be to assign each person to an individual task
-I don’t know if a game like that exists yet I’ll have to look it up
-so you select each worker, then assign a task by clicking some shit
+* ^ so at first, you’d be like a little dude who does every single step
+* then you get a helper and now you can do twice the amount of work, or set up an assembly line of sorts
+* maybe the mechanic will be to assign each person to an individual task
+* I don’t know if a game like that exists yet I’ll have to look it up
+* so you select each worker, then assign a task by clicking some shit
 
-One narrative could be that you’re an AI that’s sent to colonize the galaxy and the idea is you want to land on a planet, expand and control it
-Maybe then
+* One narrative could be that you’re an AI that’s sent to colonize the galaxy and the idea is you want to land on a planet, expand and control it
+* Maybe then
 
-Even if something has to be done in a way that isn’t physically possible, it still has to make sense to the player and be something that could possibly happen in that universe with the rules we’ve defined
+* Even if something has to be done in a way that isn’t physically possible, it still has to make sense to the player and be something that could possibly happen in that universe with the rules we’ve defined
 
-The presence of a grid is almost necessary for this kind of game at this point but I want to try to and do this with “vectors” and low poly art
+* The presence of a grid is almost necessary for this kind of game at this point but I want to try to and do this with “vectors” and low poly art
 
-If I go with the idea of a game about a king commanding his people (the player is the king lol) then it would be cool to have a feature where some workers could ask for pay raises and you’d execute them lol
+* If I go with the idea of a game about a king commanding his people (the player is the king lol) then it would be cool to have a feature where some workers could ask for pay raises and you’d execute them lol
 
-If I do go with voxels, I can include things like pipes and other stuff that are in popular Minecraft mods to give it that sort of steampunk feel and make use of the tiny pixel size that we can do
-It can also be like a chunk is 8x8 blocks and a block 8x8 voxels
+* If I do go with voxels, I can include things like pipes and other stuff that are in popular Minecraft mods to give it that sort of steampunk feel and make use of the tiny pixel size that we can do
+* It can also be like a chunk is 8x8 blocks and a block 8x8 voxels
 
-The idea of having it be like a computer AI thing seems like it’ll make more sense because the tech and replication is all there naturally
-Having there be dwarfs is a nice idea but it might need to be scrapped just for the sake of simplicity
-This could become a scripting game after all
-But that would be making it too easy for the player
-The solutions that the player comes up with should be dependent on the environment they are in and their available resources and tech
-There should be many ways to do any specific thing
-The automation should happen less on the scale of open computers and more on the scale of TIS 100 or even better on the scale of human resource machine – individual drones shouldn’t be very capable or smart – they should follow the same paradigms and principles as programming languages and shit like that
-Is Drone Station a possible name? possibly
+* The idea of having it be like a computer AI thing seems like it’ll make more sense because the tech and replication is all there naturally
+* Having there be dwarfs is a nice idea but it might need to be scrapped just for the sake of simplicity
+* This could become a scripting game after all
+* But that would be making it too easy for the player
+* The solutions that the player comes up with should be dependent on the environment they are in and their available resources and tech
+* There should be many ways to do any specific thing
+* The automation should happen less on the scale of open computers and more on the scale of TIS 100 or even better on the scale of human resource machine – individual drones shouldn’t be very capable or smart – they should follow the same paradigms and principles as programming languages and shit like that
+* Is Drone Station a possible name? possibly
