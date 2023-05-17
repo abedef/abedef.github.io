@@ -6,3 +6,11 @@ theme = 'PaperMod'
 [module]
 [[module.imports]]
   path = 'github.com/adityatelange/hugo-PaperMod'
+
+[params.homeInfoParams]
+  title = "Abed's Blog"
+  content = "Musings in game development, computer graphics, and infrastructure automation."
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/abedef"
