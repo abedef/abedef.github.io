@@ -12,5 +12,21 @@ theme = 'PaperMod'
   content = "Musings in game development, computer graphics, and infrastructure automation."
 
 [[params.socialIcons]]
-  name = "linkedin"
+  name = "LinkedIn"
   url = "https://linkedin.com/in/abedef"
+
+[[params.socialIcons]]
+  name = "Email"
+  url = "mailto:Abed <hello@abedef.ca>"
+
+[[params.socialIcons]]
+  name = "GitLab"
+  url = "https://gitlab.com/abed"
+
+[[params.socialIcons]]
+  name = "GitHub"
+  url = "https://github.com/abedef"
+
+[[params.socialIcons]]
+  name = "CV"
+  url = "https://resume.abedef.ca"
