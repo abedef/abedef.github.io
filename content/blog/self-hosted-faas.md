@@ -6,7 +6,7 @@ draft: false
 
 # What is FaaS?
 
-Function-as-a-Service (abbreviated FaaS) platforms offers developers the ability to quickly deploy their applications. Rather than deploy in the typical fashion involving a webserver and backend application, the developer can deploy each endpoint as an individual function, allowing developers to focus solely on their application.
+Function-as-a-Service (abbreviated FaaS) platforms offer developers the ability to quickly deploy their applications. Rather than deploy in the typical fashion involving a webserver and backend application, the developer can deploy each endpoint as an individual function, allowing developers to focus solely on their application.
 
 Some examples of FaaS are AWS Lambda and GCP Cloud Functions.
 
@@ -32,3 +32,42 @@ I found some time this past weekend to explore the different FaaS options availa
 * [Dokku](https://dokku.com/) – An open source PAAS alternative to Heroku
 * [Coolify](https://coolify.io/) – An open source & self-hostable Heroku / Netlify / Vercel alternative
 
+Do note that I am not running my own Kubernetes cluster and I was led to believe that deploying a lot of these stacks would be much easier if you did. I had a frustrating time with a couple of these, to say the least.
+
+## OpenWhisk
+
+By far the most difficult to set up. The docker-compose method is not recommended for real deployments but is the easiest to get going. I couldn't find a way to get the service to bind its web UI and API to any of my public interfaces (always `172.17.0.1`, no matter what), which was a major annoyance. Googling around didn't return any useful results even though this seems to be one of the most widely supported FaaS offerings out there. I ended up resolving this issue by deploying a local NGINX instance on the same machine using [this configuration](https://gist.github.com/tluyben/b33548e1a3b8ed120312369fa67fb522) I found online.
+
+It offers a web UI to write and test functions, and deploys each endpoint to a unique URL.
+
+## OpenFaaS
+
+Another solid contender with a healthy level of support. Also provides a web UI with a number of community-provided functions that can be deployed through the UI. These range from QR code generators to automated face blurring functions, accessible via HTTP requests.
+
+## Fn Project
+
+This was one of the easiest ones to set up and it got the job done fairly well. It provides a command line utility to bootstrap functions and to deploy them. Functions are grouped into applications, and each get their own endpoint.
+
+## fx
+
+This was also easy to set up but was not as feature rich. I did not spend much time working with this one but I disliked that it did not take a unified approach to its API. Support for each language was offered through some third party package integration. It gets the job done, but I wanted to keep trying other options in case I found something that was more mainstream and better supported.
+
+One thing that makes fx unusable for me is that each service is by default exposed on its own port. In my case, it simplifies hosting greatly if each function is served from the same port, on separate endpoints.
+
+## kNative
+
+This was recommended on a few of the threads I was browsing for suggestions, but I did not get around to trying it out because it is made to run on Kubernetes. From what I understand it is commonly used in enterprise settings so you can expect *some* level of support.
+
+## Dokku
+
+Another one I did not get around to trying out since it did not fit my exact use case but I thought I should mention. Dokku's platform aims to replicate the same developer experience that Heroku provides.
+
+## Coolify
+
+I did not try this one either but similar to the above, this project offers a self-hostable Netlify/Vercel alternative.
+
+# Conclusion
+
+I really want to make OpenWhisk work for me but my deployment feels fragile and I get the feeling one day it will crash I will not be able to recover it. Until I have more time to put into this, I think I will be trying out Fn or OpenFaaS in my next projects.
+
+I am currently working on a web-based game and am exploring writing a FaaS-based backend instead of my usual Docker containers or Systemd services. Watch this post for updates as I learn more about each tool.
