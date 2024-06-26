@@ -305,3 +305,8 @@ Things I’m Interesting In Doing
 * There should be many ways to do any specific thing
 * The automation should happen less on the scale of open computers and more on the scale of TIS 100 or even better on the scale of human resource machine – individual drones shouldn’t be very capable or smart – they should follow the same paradigms and principles as programming languages and shit like that
 * Is Drone Station a possible name? possibly
+
+### Unstructured Ideas
+
+* A game where you enter peoples' memories/dreams/hypothetical shower-thought scenarios and, for example, make their most embarrassing moments good ones
+* Freestyle open world coop game where you run a delivery company and meet quotas using a variety of fancy gadgets and vehicles (starting on a skate board, progressing to drones, cannons, etc.)
